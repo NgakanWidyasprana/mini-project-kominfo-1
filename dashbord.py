@@ -245,6 +245,16 @@ books_df["status"] = books_df["status"].map({1: "Available", 0: "Borrowed"})
 if "edit_id" not in st.session_state:
     st.session_state.edit_id = None
 
+# Add a search bar
+search_query = st.text_input("🔍 Search by title or author")
+
+# Filter the dataframe
+if search_query:
+    books_df = books_df[
+        books_df["judul"].str.contains(search_query, case=False, na=False) |
+        books_df["penulis"].str.contains(search_query, case=False, na=False)
+    ]
+
 for index, row in books_df.iterrows():
     cols = st.columns([1.5, 3, 3, 2, 3, 3])
 
