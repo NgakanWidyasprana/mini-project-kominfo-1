@@ -193,19 +193,17 @@ def handle_restore_choice():
         cursor.close()
         conn.close()
 
-"""
 
-STREAMLIT APP - Simple Management Book App Kominfo
+# STREAMLIT APP - Simple Management Book App Kominfo
 
- Simple Library Management App - Kominfo Mini Project
- Features:
- - Borrow and return books
- - Add, edit, and delete books
- - Update book information (title, author, etc.)
- - Add and manage users
- - Track borrowing activity in DB
- 
-"""
+# Simple Library Management App - Kominfo Mini Project
+# Features:
+# Borrow and return books
+# Add, edit, and delete books
+# Update book information (title, author, etc.)
+# Add and manage users
+# Track borrowing activity in DB
+
 
 st.title("📚 Library Borrow System")
 
