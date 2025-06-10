@@ -58,7 +58,7 @@ Create a file called `secrets.toml` inside the `.streamlit/` folder with your da
 [database]
 host = "your-filess-host"
 name = "your-database-name"
-port = your-port
+port = "your-port"
 user = "your-username"
 password = "your-password"
 ```
