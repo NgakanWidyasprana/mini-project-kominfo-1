@@ -79,7 +79,7 @@ streamlit run dashboard.py
 
 ## 🌐 Live Demo
 
-🖥️ You can try the deployed version here: 🔥 [Mini Project Kominfo – Live App](https://mini-project-kominfo-1-xouthdkhsbxf2dtyxhtsi4.streamlit.app/)
+🖥️ You can try the deployed version here: 🔥 [Mini Project Kominfo – Live App](https://kominfo-minibook.streamlit.app/)
 
 ---
 
