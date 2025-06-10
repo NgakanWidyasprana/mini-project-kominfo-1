@@ -32,10 +32,10 @@ def get_connection():
         and Streamlit is running with access to the secrets.toml file.
     """
     return mysql.connector.connect(
-        hostname = st.secrets["database"]["host"],
+        host = st.secrets["database"]["host"],
         database = st.secrets["database"]["name"],
         port = st.secrets["database"]["port"],
-        username = st.secrets["database"]["user"],
+        user = st.secrets["database"]["user"],
         password = st.secrets["database"]["password"]
     )
 
